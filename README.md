@@ -1,4 +1,4 @@
-#Federated Learning Simulator
+# Federated Learning Simulator
 
 Simulate Federated Learning on a large number of Clients.
 
