@@ -1,0 +1,28 @@
+{ 
+
+
+
+"main" :
+[
+{
+	"dataset" : ["mnist"], 
+	"net" : ["logistic"],
+
+	"iterations" : [2000],
+
+	"n_clients" : [2000],
+	"participation_rate" : [0.5],
+	"classes_per_client" : [10],
+	"batch_size" : [1],
+	"balancedness" : [1.0],	
+
+	"momentum" : [0.9],
+
+
+	"compression" : [["none", {}]],
+
+	"log_frequency" : [30],
+	"log_path" : ["results/trash/"]
+}
+]
+}
