@@ -3,7 +3,9 @@
 Simulate Federated Learning on a large number of Clients.
 
 ## Usage
-Configure your Federated Learning environment via the federated_learning.json file:
+First, set environment variable 'TRAINING_DATA' to point to the directory where you want your training data to be stored. MNIST, FASHION-MNIST and CIFAR10 will download automatically. 
+
+Second, configure your desired Federated Learning environment via the federated_learning.json file:
 
 ### Task
 - "dataset" : choose from ["mnist", "cifar10", "kws", "fashionmnist"]
