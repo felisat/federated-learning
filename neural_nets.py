@@ -6,6 +6,7 @@ import torchvision.models as models
 
 import numpy as np
 
+# new comment
 
 class logistic(nn.Module):
     def __init__(self, in_size=32*32*1, num_classes=10):
