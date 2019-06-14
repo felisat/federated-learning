@@ -2,9 +2,9 @@
 
 Simulate Federated Learning with compressed communication on a large number of Clients.
 
-Recreate experiments described in 
+Recreate experiments described in [*Sattler, F., Wiedemann, S., Müller, K. R., & Samek, W. (2019). Robust and Communication-Efficient Federated Learning from Non-IID Data. arXiv preprint arXiv:1903.02891.*](https://arxiv.org/abs/1903.02891)
 
-*Sattler, F., Wiedemann, S., Müller, K. R., & Samek, W. (2019). Robust and Communication-Efficient Federated Learning from Non-IID Data. arXiv preprint arXiv:1903.02891.*
+
 
 ## Usage
 First, set environment variable 'TRAINING_DATA' to point to the directory where you want your training data to be stored. MNIST, FASHION-MNIST and CIFAR10 will download automatically. 
@@ -24,7 +24,7 @@ You can specify:
 ### Federated Learning Environment
 
 - `"n_clients"` : Number of Clients
-- `"classes\_per\_client"` : Number of different Classes every Client holds in it's local data
+- `"classes_per_client"` : Number of different Classes every Client holds in it's local data
 - `"participation_rate"` : Fraction of Clients which participate in every Communication Round
 - `"batch_size"` : Batch-size used by the Clients
 - `"balancedness"` : Default 1.0, if <1.0 data will be more concentrated on some clients
