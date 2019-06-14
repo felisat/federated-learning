@@ -42,4 +42,5 @@ Run multiple experiments by listing different configurations.
 
 ## Citation 
 [Paper](https://arxiv.org/abs/1903.02891)
+
 Sattler, F., Wiedemann, S., Müller, K. R., & Samek, W. (2019). Robust and Communication-Efficient Federated Learning from Non-IID Data. arXiv preprint arXiv:1903.02891.
