@@ -2,6 +2,10 @@
 
 Simulate Federated Learning with compressed communication on a large number of Clients.
 
+Recreate experiments described in 
+
+*Sattler, F., Wiedemann, S., Müller, K. R., & Samek, W. (2019). Robust and Communication-Efficient Federated Learning from Non-IID Data. arXiv preprint arXiv:1903.02891.*
+
 ## Usage
 First, set environment variable 'TRAINING_DATA' to point to the directory where you want your training data to be stored. MNIST, FASHION-MNIST and CIFAR10 will download automatically. 
 
