@@ -42,7 +42,7 @@ class lstm(nn.Module):
 
 class cnn(nn.Module):
     def __init__(self):
-        super(fedlearnCNN, self).__init__()
+        super(cnn, self).__init__()
         self.conv1 = nn.Conv2d(1, 32, kernel_size=5)
         self.pool = nn.MaxPool2d(2, 2)
         self.conv2 = nn.Conv2d(32, 32, kernel_size=5)
